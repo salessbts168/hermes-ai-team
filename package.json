@@ -1,0 +1,19 @@
+{
+  "name": "hermes-ai-team-core",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "node-cron": "^3.0.3",
+    "replicate": "^1.0.1",
+    "telegraf": "^4.16.3",
+    "ws": "^8.18.0"
+  }
+}
